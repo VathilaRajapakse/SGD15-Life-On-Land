@@ -1,0 +1,25 @@
+.card{
+    width: 500px;
+    background-color: darkgreen;
+    margin-left: 60px;
+    height: 400px;
+    margin-top: 50px;
+    border-radius: 25px;
+    
+}
+
+.editproducts{
+    text-align: left;
+    color: aliceblue;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.sbtn2{
+    background-color:green;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-left: 220px;
+}
+

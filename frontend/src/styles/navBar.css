@@ -1,0 +1,186 @@
+.clearfix {
+    margin: 0;
+    overflow: auto;
+  }
+
+.Logo{
+  margin-top: 8px;
+  height: 85px;
+  width: 85px;
+}
+.hi{
+  font-size: 30px;
+  color: #000;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 125%;
+  margin-top: 1px;
+}
+.nav_main_container {
+    width: 22.5%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+  
+      border-radius: 8px;
+      border: 2px solid #73AD21;
+      padding: 20px;
+   
+    
+    
+  }
+  /* Hide scrollbar for Chrome, Safari and Opera */
+.nav_main_container::-webkit-scrollbar {
+      display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+.nav_main_container {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+.nav_header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+.nav_heading_text {
+    font-size: 30px;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+  }
+.nav_body {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+.nav_link_section {
+    width: 100%;
+    display: flex;
+    gap: 8px;
+    color: rgb(205, 205, 205);
+    padding-left: 15px;
+  }
+.nav_section_text {
+    font-size: 12px;
+    margin-top: 0px;
+  }
+
+
+
+.nav_link_wrapper {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    gap: 10px;
+    color: rgb(0, 0, 0);
+    cursor: pointer
+  }
+.nav_link_wrapper:hover {
+    background-color: rgb(17, 184, 28);
+    color: black;
+  }
+
+
+.nav_link {
+    font-size: 15px;
+    font-weight: 400;
+  }
+.link_styles{
+    text-decoration: none;
+  }
+.link_styles:hover{
+    text-decoration: none;
+  }
+.active div {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    
+  }
+  
+@media only screen and (max-width: 900px) {
+    .nav_main_container{
+      width: 25%;
+    }
+  }
+
+  .login_wrapper{
+    margin-bottom: 10px;
+    margin-left: 72px;
+    
+  }
+.singup{
+ margin-left: 10px;
+  margin-top: -20px;
+}
+
+
+.iconcolor{
+  color: rgb(18, 120, 35);
+}
+
+.drop-down-navbar{
+  color: black;
+  font-weight: bolder;
+  width: 20px;
+  border-color: white;
+}
+
+.dropdown-fonts{
+  font-size:20px;
+  color: rgb(0, 0, 0);
+  width: 200px;
+  background-color:rgb(230,231,199);
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.dropdown-fonts-account{
+  color: #000;
+  font-weight: bolder;
+  background-color:rgb(230,231,199);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.logout-btn{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: medium;
+  color: #000;
+  border-color: white;
+  width: auto;
+  margin-left: -15px;
+}
+
+.login_s{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: medium;
+  color: #000;
+  background-color: white;
+  border-color: white;
+  padding: auto;
+
+}
+
+
+.pside_header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.pside_heading_text {
+  font-size: 30px;
+  color: #000;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.pmap_card{
+  width: 250px;
+  height: 500px;
+
+  margin: auto;
+
+}

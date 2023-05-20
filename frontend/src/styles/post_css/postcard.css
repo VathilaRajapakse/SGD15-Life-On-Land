@@ -1,0 +1,281 @@
+/* .card-wapper {
+  margin-top: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.box {
+  color: rgb(163, 165, 174);
+}
+.course-name {
+  color: rgb(255, 0, 0);
+}
+.course-subname {
+  color: black;
+  font-style: cambria;
+}
+.box1 {
+  border-radius: 5px;
+  box-shadow: 0px 30px 40px -20px rgb(135, 138, 153);
+  padding: 60px; 
+  width: 700px;
+  height: 450px;
+  border-top: 3px solid rgb(0, 0, 0);
+  margin-left: 100px;
+  background-color: rgb(230,231,199);
+  
+  
+}
+.course-img1 {
+  margin-top: -125%;
+  float: right;
+  width: 42%;
+  height: 190px;
+}
+.card-button {
+  padding-top: 8%;
+  display: flex;
+  gap: 5%;
+}
+.courseadd-btn {
+  float: right;
+}
+.text-box-card1{
+  padding-top: 2%;
+}
+.view-card-button{
+  width: 100%;
+}
+@media screen and (max-width: 850px) {
+  .card-wapper {
+    margin-top: 6%;
+  }
+  .box {
+    width: 100%;
+    height: 100%;
+  }
+  .course-img {
+    margin-top: -8%;
+    width: 20%;
+  }
+  .card-button {
+    padding-top:-5%;
+}
+}
+#table-button{
+margin-top: auto;
+font-size: small;
+color: rgb(110, 16, 16);
+padding: auto;
+
+}
+
+#btn{
+
+margin-left: 650px;
+margin-top: 40px;
+color: crimson;
+font-family:'Times New Roman', Times, serif
+
+}
+
+#recipe{
+font-style: lato;
+font-size: 30px;
+color: rgb(0, 0, 0);
+margin-left: 650px;
+
+}
+
+#box{
+width: 1200px;
+height: 500px;
+}
+
+#pic{
+height: 250px;
+width: 200px;
+margin-top: -530px;
+}
+
+#recipe1{
+font-style: lato;
+font-size: 30px;
+color: rgb(0, 0, 0);
+margin-left: 650px;
+margin-top: 30px;
+}
+
+#update{
+font-style: lato;
+font-size: 15px;
+color: rgb(255, 0, 0);
+margin-left: -50px;
+margin-top: 5px;
+}
+
+#delete{font-style: lato;
+font-style: lato;
+font-size: 15px;
+color: rgb(0, 0, 0);
+margin-left: -30px;
+margin-top: 5px;
+}
+
+.become-btn{
+  width: auto;
+  height: 35px;
+  background-color: rgb(117, 205, 131);
+  border-radius: 12px;
+  margin-left: 205px;
+  font-family: 'Times New Roman', Times, serif;
+  stroke: aliceblue;
+}
+
+.Blog-View{
+  color: rgb(255, 255, 255);
+  background-color: rgb(18,120,35);
+  width: 130px;
+  border-radius: 10px;
+  height: 40px;
+  text-align: bold;
+
+}
+
+.blog-title{
+  font-size: large;
+}
+
+.blog-description{
+  font-size: small;
+} */
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.postcard-container {
+  width: 80%;
+  height: auto;
+  background-color: rgb(230, 231, 199);
+  border-radius: 7px;
+  overflow: hidden;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+.postimage-container {
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+}
+
+.likeimage {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  align-items: center;
+}
+
+.like-container {
+  width: 100%;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .project-name-container{
+    text-align: center;
+} */
+
+.postdescription-container {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
+}
+
+.kkk {
+  display: flex;
+  gap: 10px;
+}
+
+/* .jbutton{ 
+    background-color: rgb(18, 120, 36);
+    width: 150%;
+    border-radius: 5px;
+    color: white;
+}
+
+.proicon1 {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    gap: 10px;
+    color: rgb(0, 0, 0);
+    cursor: pointer
+}
+
+.proicon2 {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    display: flex;
+    gap: 10px;
+    color: rgb(0, 0, 0);
+    cursor: pointer
+} */
+.poll-option {
+  margin-bottom: 10px;
+  width:5000px;
+  display: flex;
+  margin-top: 10px;
+  margin-left: 120px;
+}
+
+
+
+.poll-option p {
+  font-weight: bold;
+}
+
+
+
+.progress-bar {
+  height: 20px;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+  overflow: hidden;
+  width: 200px;
+}
+
+
+
+.progress {
+  height: 100%;
+  background-color: #2196f3;
+  transition: width 0.3s ease-in-out;
+}
+
+
+
+.percentage {
+  display: inline-block;
+  margin-left: 5px;
+  color: #555;
+  font-size: 12px;
+}

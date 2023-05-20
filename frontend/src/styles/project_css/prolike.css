@@ -1,0 +1,29 @@
+.like-button:hover {
+    background-color: rgb(9, 100, 22);
+ }
+
+ .like-button.liked {
+    color: #000000;
+    border-color: #000000;
+ }
+
+ .prolike-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .like-button {
+    border: none; 
+    width: 80px;
+    outline: none;
+    background-color: transparent;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 15px;
+    color: #3b3b3b;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    padding: 5px;
+    border: 1px solid #000000;
+ }

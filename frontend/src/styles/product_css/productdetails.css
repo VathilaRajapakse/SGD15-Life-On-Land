@@ -1,0 +1,47 @@
+
+.pcard{
+    text-align: center;
+    width: 600px;
+    margin-left: 130px;
+    margin: auto;
+
+}
+
+h5{
+    color: aliceblue;
+}
+
+.productnamecontainer{
+    margin-top: 60px;
+}
+
+.productdescriptioncontainer{
+    margin-top: 10px;
+}
+
+.productpricecontainer{
+    margin-top: 10px;    
+}
+
+.backbtn{
+    background-color: #226101;
+    margin-top: 50px;
+    margin-left: 300px;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: large;
+}
+
+.buybtn{
+    background-color: #226101;
+    margin-top: 50px;
+    margin-left: 300px;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: large;
+}
+
+
+

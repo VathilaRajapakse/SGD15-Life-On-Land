@@ -1,0 +1,30 @@
+.products-add-button{
+    /* margin: auto; */
+    /* margin-top: 50px; */
+    padding-top: 60px;
+}
+ .addbtn{
+    background-color: #226101;
+    margin-left: 200px;
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: large;
+}
+
+
+.card-track-product{
+  width: 100%; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;  
+  
+   
+}
+
+
+.product-cards{  
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    overflow: auto;  
+} 

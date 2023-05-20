@@ -1,0 +1,46 @@
+#app-table{
+    background-color: rgb(18,120,35);
+}
+
+#table-button{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100px;
+}
+
+#report-button{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    width: 200px;
+}
+
+#action-button{
+    align-items: center;
+}
+
+.order-section-two-container {
+    width: 97%;
+   
+    margin: auto;
+    background-color: white;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.order-section-three-container {
+    width: 97%;
+    margin: auto;
+    margin-top: 2px;
+}
+
+
+
+.order-table-row {
+    min-height: 40px;
+    align-items: center;
+    background-color: white;
+    margin-top: 1px;
+}
+

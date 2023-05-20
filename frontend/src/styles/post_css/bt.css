@@ -1,0 +1,36 @@
+.button-container {
+  display: flex;
+  margin-left: 65px;
+  width: 600px;
+}
+
+.button-container button {
+  flex: 1;
+  width: 40px;
+}
+
+button {
+    display: inline-block;
+    margin-bottom: 5px;
+    padding: 2px 5px;
+    font-size: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #086e4c;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  button:disabled {
+    background-color: #CCCCCC;
+    cursor: not-allowed;
+  }
+  
+  button:hover {
+    background-color: #4557a0;
+  }
+  
